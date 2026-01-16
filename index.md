@@ -2,7 +2,7 @@
 This blog explores the main challenges and solutions I encountered while implementing distance-based costs during an eight-week school project where I focused on learning and implementing a GOAP system. It assumes that the reader has some experience with GOAP and graph search algorithms.
 
 <video width="640" height="480" controls>
-  <source src="/assets/demo_example.mp4" type="video/mp4">
+  <source src="./assets/demo_example.mp4" type="video/mp4">
 </video>
 
 In the demo the agent alternates between the shooting and the white circle where it can pick up more ammo. The distances that the agent needs to move are added to the cost of the actions. The planner eventually decides to move into melee range because the combined cost of moving, picking up ammo and shooting became higher than simply moving into melee range for a melee attack.
